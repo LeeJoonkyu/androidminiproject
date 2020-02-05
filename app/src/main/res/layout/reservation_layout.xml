@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TableRow
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <TextView
+
+            android:id="@+id/title_reservation"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="하브루타,예약"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#005eff"
+            android:textStyle="bold" />
+
+        <!--텍스트 사이즈 조정시 전체 정렬 문제 질문 -> 테이블레이아웃은 위에서 아래로 쭉 칼럼사이즈가 따라서 정해지기 때문에 하나를 키우면 1열에 해당하는 컨테이너 사이즈가 커짐
+       -->
+    </TableRow>
+
+
+    <TableRow
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:id="@+id/textDay1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="월요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#005eff" />
+
+        <Button
+            android:id="@+id/mon_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/mon_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/mon_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="화요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+
+            android:textColor="#005eff" />
+
+        <Button
+            android:id="@+id/tue_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/tue_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/tue_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+
+            android:textColor="#005eff"/>
+
+        <Button
+            android:id="@+id/wed_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/wed_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/wed_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+
+            android:textColor="#005eff"/>
+
+        <Button
+            android:id="@+id/thu_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/thu_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/thu_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+
+            android:textColor="#005eff"/>
+
+        <Button
+            android:id="@+id/fri_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/fri_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/fri_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="토요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+
+            android:textColor="#005eff"/>
+
+        <Button
+            android:id="@+id/sat_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/sat_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/sat_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/textDay7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일요일"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            android:gravity="center_horizontal"
+            android:textColor="#005eff"/>
+
+        <Button
+            android:id="@+id/sun_office1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실" />
+
+        <Button
+            android:id="@+id/sun_office4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실" />
+
+        <Button
+            android:id="@+id/sun_office5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실" />
+    </TableRow>
+
+</TableLayout>

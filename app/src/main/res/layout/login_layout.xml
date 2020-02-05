@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+
+    <TextView
+        android:id="@+id/login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="SPACENOVA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#005eff"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="아이디"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#005eff" />
+
+        <EditText
+            android:id="@+id/login_inputId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="아이디를 입력하세요"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/login_Pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="비밀번호"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#005eff" />
+
+        <EditText
+            android:id="@+id/login_inputPw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="비밀번호를 입력하세요"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="로그인" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아직 회원이 아니신가요?" />
+
+    <!--    put googld sigin in here-->
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btn_googleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_facebookSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+
+
+        <!--        <Button-->
+<!--            android:id="@+id/findidButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="아이디가 기억나지 않아요" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/findpwButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="비밀번호를 까먹었어요" />-->
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

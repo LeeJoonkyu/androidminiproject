@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <TableRow
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/title_reservation"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="사무실\n현황"
+            android:textColor="#005eff"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginTop="20dp"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp">
+        <TextView
+            android:id="@+id/officeNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사무실명"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/border4side"
+            android:textColor="#005eff"
+
+
+            />
+
+        <TextView
+            android:id="@+id/officeStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현황"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/border4side"
+            android:textColor="#005eff"
+
+            />
+
+        <TextView
+            android:id="@+id/spaceRemained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="잔여"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/border4side"
+            android:textColor="#005eff"
+            />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/office1Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1사무실"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+
+            />
+
+        <TextView
+            android:id="@+id/office1Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center_horizontal"
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/office1remained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4사무실"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/office4status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/office4remained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5사무실"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:id="@+id/office5status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/office5remained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용가능"
+            android:background="#005eff"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/office6Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6사무실"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            />
+        <TextView
+            android:id="@+id/office6_seatstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="52/53"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/office6_seatremained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+
+<!--    <TableRow-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        >-->
+<!--        <TextView-->
+<!--            android:id="@+id/office7Button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="7사무실"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:clickable="true"-->
+
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/textView20"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="20/30"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView21"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="10"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            />-->
+<!--    </TableRow>-->
+</TableLayout>

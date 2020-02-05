@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/title_office6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6사무실"
+        android:textColor="#005eff"
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/office6_door1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문"
+        android:textColor="#005eff"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/office6_door2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="문"
+        android:textColor="#005eff"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="475dp"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@mipmap/seatnova80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum1"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+<!--한 뭉치가 시작될때는 부모 뷰 기준으로 바텀 마진을 정할것. 계속 연결시키다 보면 변경사항 적용에 불편-->
+    <ImageButton
+        android:id="@+id/office6_seatnum3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum7"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="520dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum10"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="620dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="35dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum19"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum23"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum26"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum27"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum26"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum27"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum29"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="620dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum30"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="620dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/office6_seatnum29"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum31"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginBottom="620dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum32"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="620dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/office6_seatnum31"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+
+    <ImageButton
+        android:id="@+id/office6_seatnum33"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum27"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum34"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum26"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum35"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+
+
+    <ImageButton
+        android:id="@+id/office6_seatnum36"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum23"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum38"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum39"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+
+
+
+    <ImageButton
+        android:id="@+id/office6_seatnum40"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum41"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum19"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum42"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum18"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum43"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum44"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum44"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum46"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum47"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum48"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum50"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <ImageButton
+        android:id="@+id/office6_seatnum52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginBottom="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:srcCompat="@mipmap/seatnova80" />
+    <ImageButton
+        android:id="@+id/office6_seatnum53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="340dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:srcCompat="@mipmap/seatnova80" />
+
+    <Button
+        android:id="@+id/seatreturn_at_office_activity"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:text="매너반환"
+        app:layout_constraintTop_toBottomOf="@+id/office6_seatnum46"
+        app:layout_constraintBottom_toTopOf="@+id/office6_seatnum45"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="25dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
